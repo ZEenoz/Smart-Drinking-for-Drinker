@@ -184,7 +184,7 @@ class IngredientRepository {
 // ==========================================
 // 3. UI Layer (Modernized Swing JFrame)
 // ==========================================
-public class SmartKioskApp extends JFrame {
+public class SmartDrinkingForDrinker extends JFrame {
 
     private JPanel cardPanel;
     private CardLayout cardLayout;
@@ -212,7 +212,7 @@ public class SmartKioskApp extends JFrame {
     private final Font FONT_NORMAL = new Font("Segoe UI", Font.PLAIN, 14);
     private final Font FONT_RECEIPT = new Font("Consolas", Font.PLAIN, 15);
 
-    public SmartKioskApp() {
+    public SmartDrinkingForDrinker() {
         // 1. Set System Look and Feel for modern native UI
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
@@ -743,7 +743,7 @@ public class SmartKioskApp extends JFrame {
     public static void main(String[] args) {
         // Run application
         SwingUtilities.invokeLater(() -> {
-            new SmartKioskApp().setVisible(true);
+            new SmartDrinkingForDrinker().setVisible(true);
         });
     }
 }

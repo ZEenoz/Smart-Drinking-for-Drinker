@@ -1,3 +1,3 @@
 How to run?
 
-java -cp bin SmartKioskApp
+java -cp bin SmartDrinkingForDrinker
